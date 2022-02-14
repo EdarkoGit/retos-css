@@ -26,10 +26,17 @@ body {
   font-size: 1.6rem;
 }
 
+.main {
+  position: relative;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .card {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   width: 300px;
   padding: 25px;
   border-radius: 10px;
@@ -43,15 +50,15 @@ body {
 .card--blue,
 .card--light-blue {
   position: absolute;
-  top: 35vh;
+  top: 121.5px;
 }
 
 .card--blue {
-  left: 60vw;
+  left: 330px;
   border-top: 4px solid rgba(27, 74, 160, 0.548);
 }
 .card--light-blue {
-  left: 24vw;
+  left: -330px;
   border-top: 4px solid rgb(0, 255, 242);
 }
 
